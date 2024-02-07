@@ -8,11 +8,20 @@
     <title>Cifrado</title>
 </head>
 <body>
-    <input type="text" name="Cifrado" id="textoCifrado">
-    <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <h1>Encriptador</h1>
+    <div>
+    <section class="encriptado">
+    <textarea type="text" name="Cifrado" id="textoCifrado"></textarea>
     <button type="button" id="botonEncriptar">Encriptar</button>
-    <button type="button" id="botonDesencriptar">Desencriptar</button>
-    <button type="button" id="botonCopiar">copiar</button>
+</section>
+<section class="desencriptado">
+    <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <div>
+        <button type="button" id="botonCopiar">copiar</button>
+        <button type="button" id="botonDesencriptar">Desencriptar</button>
+</div>
+</section>
+</div>
 </body>
 <script>
     var boton = document.querySelector("#botonEncriptar");
